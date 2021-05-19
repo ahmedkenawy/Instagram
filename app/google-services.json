@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84929511330",
+    "project_id": "insta-284e9",
+    "storage_bucket": "insta-284e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84929511330:android:38af0d6c965b417e567cfb",
+        "android_client_info": {
+          "package_name": "com.ahmedkenawy.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84929511330-m55junun1rm7e47v80mimnj9mlptff78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmedkenawy.instagram",
+            "certificate_hash": "27d4582f5c24d47b88443e651efc919aa448390b"
+          }
+        },
+        {
+          "client_id": "84929511330-gkqjkigd54b5c279aopfh1ogcrmq1024.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKxLGZRrIm7fQ5wYtsnxMTxwscvB5Pd_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84929511330-gkqjkigd54b5c279aopfh1ogcrmq1024.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

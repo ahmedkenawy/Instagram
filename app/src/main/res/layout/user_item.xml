@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_profile"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/ic_person" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toEndOf="@+id/image_profile"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fullname"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:maxLines="1"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_follow"
+        android:visibility="gone"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="@dimen/_7sdp"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/_15sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/black"
+        android:text="Follow"
+        android:textColor="@color/white"/>
+</RelativeLayout>
